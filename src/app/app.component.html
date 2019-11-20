@@ -1,0 +1,17 @@
+<h1>{{title}}</h1>
+
+<div >
+    <p style="text-align: center; color: red;font-weight: bold;">{{currentstate}}</p>
+</div>
+
+<div class="Container">
+        <h3 style="text-align: right; width: 100%;">Level : {{level}}</h3>
+<div class="Boxes">
+    <div #square *ngFor="let square of noOfSq; let i = index" class="square" [ngStyle]="setSqStyle(i)" [class.highLight]="current === i" (click)="SquareSelect(i,square)" >
+    </div>
+</div>
+
+<div class="Play">
+    <button (click)="getRandom()" class="button">Play</button>
+</div>
+</div>

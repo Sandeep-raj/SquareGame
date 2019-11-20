@@ -1,0 +1,41 @@
+.square{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 5px 10px;
+
+}
+.highLight{
+    border: 2px black solid;
+}
+.Play{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    margin: 5px;
+}
+.Container{
+    width: 80%;
+    height: fit-content;
+    margin: auto;
+    border: 3px black double;
+}
+
+.Boxes{
+    width: 100%;
+    min-height: 200px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+  }
+.button:hover{
+    background-color: rgb(54, 131, 57);
+}
